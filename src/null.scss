@@ -1,17 +1,23 @@
 @font-face {
     font-family: 'arial';
-    src: url('/fonts/ArialBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+    src: url('/fonts/arial.woff2') format('woff2');
+    // font-weight: bold;
+    // font-style: italic;
 }
 
 @font-face {
     font-family: 'simps';
     src: url('/fonts/Simpsonfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    // font-weight: normal;
+    // font-style: normal;
 }
 
+img {
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
 
 article,
 aside,

@@ -25,6 +25,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
 
         &_1 {
             left: -500px;
@@ -69,6 +70,9 @@
     }
 
     &_content {
+        position: relative;
+        z-index: 2;
+
         &_element {
 
             margin-top: 64px;
