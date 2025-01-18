@@ -1,0 +1,30 @@
+.Media {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+    @media(max-width: 600px) {
+        column-gap: 8px;
+    }
+
+
+    &_element {
+        border-radius: 16px;
+        border: 2px solid black;
+        width: 92px;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #99CCFF;
+
+        @media(max-width: 600px) {
+            height: 60px;
+            width: 60px;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+}

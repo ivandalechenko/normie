@@ -1,0 +1,49 @@
+.RunText {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background: #FFE604;
+    color: #000;
+    border-radius: 16px;
+    border: 2px solid black;
+    height: 92px;
+    align-items: center;
+
+    @media(max-width: 600px) {
+        height: 60px;
+    }
+
+    span,
+    a {
+        color: #000;
+        white-space: nowrap;
+        font-size: 32px;
+        font-family: 'simps';
+        display: flex;
+        column-gap: 24px;
+
+        @media(max-width: 600px) {
+            font-size: 20px;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    span {
+        padding-right: 24px;
+        animation: marquee 20s linear infinite;
+    }
+
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

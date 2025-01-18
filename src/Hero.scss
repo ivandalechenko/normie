@@ -1,0 +1,75 @@
+.Hero {
+    min-height: 100dvh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    padding: 16px 0px;
+    row-gap: 32px;
+
+    &_top,
+    &_bot {
+        width: 100%;
+    }
+
+    &_header {
+
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        position: relative;
+        z-index: 2;
+
+        @media(max-width: 600px) {
+            column-gap: 8px;
+        }
+
+    }
+
+    &_decor {
+        margin-top: 24px;
+
+        position: relative;
+        z-index: 2;
+
+        img {
+            width: 100%;
+            border-radius: 24px;
+            border: 2px solid black;
+        }
+    }
+
+    &_content {
+        text-shadow: 2.00px 0.00px #000000, 1.41px 1.41px #000000, 0.00px 2.00px #000000, -1.41px 1.41px #000000, -2.00px 0.00px #000000, -1.41px -1.41px #000000, -0.00px -2.00px #000000, 1.41px -1.41px #000000;
+        font-size: 42px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+
+        @media(max-width: 600px) {
+            font-size: 28px;
+        }
+    }
+
+
+    &_clouds {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+
+        &_1 {
+            top: 100px;
+            left: 500px;
+            animation: cloudRight 30s infinite alternate;
+        }
+
+        &_2 {
+            top: -200px;
+            left: -600px;
+            animation: cloudRight 50s infinite alternate;
+        }
+    }
+
+}
