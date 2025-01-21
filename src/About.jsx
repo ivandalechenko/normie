@@ -6,13 +6,16 @@ export default () => {
             <div className='About_top'>
                 <div className='About_content container'>
                     <div className='About_content_element'>
-                        NEVER TRADE AGAINST THE NORMIE
+                        NORMIES HAVE RISEN. YOU THOUGHT WE WILL BE YOUR EXIT LIQUIDITY, INSTEAD YOU WILL BE OURS. WE ARE COMING FOR YOUR BAGS CRYPTO BROS
                     </div>
                     <div className='About_content_element'>
-                        EMBRACE THE FAITH
+                        $NORMIES FOR THE NORMIES
                     </div>
                     <div className='About_content_element'>
-                        CA: SOON
+                        XRP CA:
+                        <span>
+                            4E4F524D49450000000000000000000000000000.rwtZ99naquDaXzHJNQVn9okoseWTWjQYcp
+                        </span>
                     </div>
                 </div>
             </div>
