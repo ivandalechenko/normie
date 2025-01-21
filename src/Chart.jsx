@@ -7,6 +7,8 @@ export default () => {
                 <div className='Chart_logo free_img'>
                     <img src="/img/logo.png" alt="" />
                 </div>
+            </div>
+            <div className='Chart_bot'>
                 <div className='Chart_clouds'>
                     <div className='Chart_cloud1 free_img'>
                         <img src="/img/chartCloud1.svg" alt="" />
@@ -15,8 +17,6 @@ export default () => {
                         <img src="/img/chartCloud2.svg" alt="" />
                     </div>
                 </div>
-            </div>
-            <div className='Chart_bot'>
                 <div className='Chart_decor'>
                     <div className='Chart_chart free_img'>
                         <img src="/img/chart.png" alt="" />
